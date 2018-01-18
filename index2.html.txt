@@ -1,0 +1,154 @@
+<!doctype html >
+<head>
+<title>Responsive web Design</title>
+<meta charset="utf-8">
+<link href="custom.css" rel="stylesheet">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target="#my-navbar">
+<!--navbar-->
+
+<div class="navbar navbar-inverse navbar-fixed-top role="navigation">
+
+     <div class="container">
+
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+           </button>
+
+           <a class="navbar-brand" href="temi.html">BootstrapBay</a>
+         </div>   <!-- end of navbar-header-->
+
+         <div class="navbar-collapse collapse">
+                  
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="temi.html">Home</a></li>
+                  <li><a href="">About</a></li>
+
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes <b class="caret"></b></a>
+                       
+                       <ul class="dropdown-menu">
+                          <li class="dropdown-header">Admin & Dashboard</li>
+                             <li><a href="">Admin 1</a></li>
+                             <li><a href="">Admin 2</a></li>
+                             <li class="divider"></li>
+                           <li class="dropdown-header">Portfolio</li>
+                               <li><a href="">Portfolio 1</a></li>  
+                             <li><a href="">Portfolio 2</a></li>
+                       </ul>
+                      </li>
+
+                      <li><a href="">Contact Us</a></li>
+                </ul>
+         </div>
+     </div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="page-header">
+       <h1>Single Page Portfolio Theme</h1>
+        
+    </div>
+     <div class="col-sm-8">
+         <div class="thumbnail">
+            <img src="highway.jpg">
+            <div class="caption text-center">
+              <a href="" class="btn btn-primary">Live Preview</a>
+            </div>
+         </div>
+
+         <p>
+         laritaz TechLabs is an exciting place to work if you have passion for technology and an unquenchable thirst for problem solving. More than just academic credentials, we seek the following attributes in our people:
+
+Take ownership of the tasks and outcomes
+Passion to learn and make moves without having to wait for instructions
+Perseverance and self motivation
+Emotional maturity and ability to connect with others positively
+Integrity, ethics, and street-smarts
+Effective communication skills
+         </p>
+         <h3>Feature</h3>
+           <li>Bootstrap 3</li>
+           <li>Fully Responsive</li>
+           <li>One Page Scroll Design</li>
+           <li>HTML & CSS3</li>
+           <li>Font Awesome Icons</li>
+           <li>Google Web Fonts</li>
+     </div>
+
+     <div class="col-sm-4">
+        <div class="thumbnail bg-grey text-center">
+          <h2>$14</h2>
+          <p>Basic License</p>
+           <a href="" class="btn btn-success">Buy Now</a>
+        </div>
+
+        <div class="panel bg-grey panel-default">
+             <div class="panel-heading">
+                <div class="panel-title">Theme Author</div>
+             </div>
+
+             <div class="panel-body text-center">
+              <img src="scooptheme.jpg" class="img-circle" height="90" width="90">
+              <h3>Scoop Theme</h3>
+             </div>
+        </div>  <!--  end panel-->
+
+  <div class="panel-default">
+     <div class="panel-heading">
+       <h3 class="panel-title">Theme Attribute</h3>
+     </div>
+
+     <table class="table table-bordered table-striped">
+
+<tbody>
+
+<tr>
+<td>Category</td>
+<td>Portfolio</td>
+</tr>
+
+
+<tr>
+<td>version</td>
+<td>version 1</td>
+
+<tr>
+<td>Tags</td>
+<td>Portfolio,Single page Web</td>
+</tr>
+
+
+
+
+</tbody>
+  </table>
+  </div>
+     </div>
+</div>   <!-- end container-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
